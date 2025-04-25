@@ -22,13 +22,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madebyshape/craft-cms.git"
+    "url": "git+https://github.com/tom-c/craft-cms-5x.git"
   },
-  "author": "Jason Mayo (@bymayo)",
-  "authorUrl": "https://madebyshape.co.uk",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/madebyshape/craft-cms/issues"
-  },
-  "homepage": "https://github.com/madebyshape/craft-cms#readme"
+  "author": "tttc",
+  "authorUrl": "https://adart.design",
 }
