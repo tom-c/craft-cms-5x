@@ -35,14 +35,14 @@ install:
 	fi; \
 	ddev exec php craft plugin/install seomatic
 	ddev exec php craft plugin/install vite
-	ddev exec php craft plugin/install blitz
+#	ddev exec php craft plugin/install blitz
 	ddev exec php craft plugin/install sprig
-	ddev exec php craft plugin/install formie
-	ddev exec php craft plugin/install imager-x
+#	ddev exec php craft plugin/install formie
+#	ddev exec php craft plugin/install imager-x
 	ddev exec php craft plugin/install minify
 	ddev exec php craft plugin/install ckeditor
-	ddev exec php craft plugin/install mailgun
-	ddev exec php craft plugin/install servd-asset-storage
+#	ddev exec php craft plugin/install mailgun
+#	ddev exec php craft plugin/install servd-asset-storage
 	ddev exec php craft up --interactive=0
 	ddev exec php craft update all
 	ddev launch; \
