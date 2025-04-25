@@ -8,7 +8,7 @@ export default ({ command }) => ({
     base: command === 'serve' ? '' : '/dist/',
     publicDir: 'src/public',
     build: {
-        outDir: 'web/dist/',
+        outDir: 'public/dist/',
         emptyOutDir: true,
         sourcemap: true,
         manifest: 'manifest.json',
@@ -18,7 +18,7 @@ export default ({ command }) => ({
                 index: './src/index.js',
             },
             output: {
-                dir: 'web/dist/',
+                dir: 'public/dist/',
             }
         },
     },
@@ -52,7 +52,7 @@ export default ({ command }) => ({
             targets: [
                 { 
                     src: 'src/public/**/*', 
-                    dest: 'web/dist'
+                    dest: 'public/dist'
                 }
             ]
         }),

@@ -1,6 +1,6 @@
 name: craft-cms
 type: craftcms
-docroot: web
+docroot: public
 php_version: "8.2"
 webserver_type: nginx-fpm
 xdebug_enabled: false
@@ -20,7 +20,7 @@ nodejs_version: "22"
 
 mutagen_enabled: true
 upload_dirs:
-  - web/assets
+  - public/assets
   - storage
 
 webimage_extra_packages:

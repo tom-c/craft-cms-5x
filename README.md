@@ -2,7 +2,7 @@
 
 # Craft CMS 5 Starter
 
-This is a [Craft CMS 5.x](https://github.com/craftcms/cms) starter [MadeByShape](https://madebyshape.co.uk) use internally for projects, that we open sourced so anybody can use it.
+This is a [Craft CMS 5.x](https://github.com/craftcms/cms) starter based on setup from [MadeByShape](https://madebyshape.co.uk).
 
 ## The Stack
 
@@ -11,8 +11,6 @@ This is a [Craft CMS 5.x](https://github.com/craftcms/cms) starter [MadeByShape]
 - [Vite 5.x](https://vitejs.dev) Front end build tool with HMR
 - [Tailwind CSS 4.x](https://tailwindcss.com) Utility-first CSS framework
 - [Alpine.js 3.x](https://alpinejs.dev/) Minimal JS framework
-- [Mailgun](https://www.mailgun.com/) Email API
-- [Servd](https://servd.host) Craft CMS first hosting provider
 
 ## Requirements
 
@@ -37,9 +35,6 @@ This is a [Craft CMS 5.x](https://github.com/craftcms/cms) starter [MadeByShape]
     - Favicon is generated and auto inserted into the template
     - Images compressed
     - Sourcemaps generated
-- Servd
-    - Setup to be used with Servd hosting platform
-    - Enabled for using static caching
 - Caching
     - Uses Blitz to handle server caching and warming
 
@@ -49,12 +44,9 @@ This is a [Craft CMS 5.x](https://github.com/craftcms/cms) starter [MadeByShape]
 
 - Blitz
 - CKEditor
-- Formie
-- Imager X
 - Mailgun
 - Minify
 - SEOMatic
-- Servd Assets and Helpers
 - Sprig
 - Vite
 
@@ -62,15 +54,8 @@ This is a [Craft CMS 5.x](https://github.com/craftcms/cms) starter [MadeByShape]
 
 Create an empty folder and CD to it in terminal (If you plan to use Option 1 or 2).
 
-### 1a. Option 1: Composer
 
-If you have composer installed locally, open terminal and run:
-
-```shell
-composer create-project madebyshape/craft-cms
-```
-
-### 1b. Option 2: Git
+### 1b. Option 1: Git
 
 You can clone the repo from Github using Git CLI:
 
@@ -78,7 +63,7 @@ You can clone the repo from Github using Git CLI:
 git clone git@github.com:madebyshape/craft-cms.git
 ```
 
-### 1c. Option 3: Manual
+### 1c. Option 2: Manual
 
 Download a copy of this repo to your computer using the `Code` button above, and choosing `Download ZIP`. Move these files to your empty folder.
 
